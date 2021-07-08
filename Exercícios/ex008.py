@@ -1,5 +1,7 @@
-mt = float(input('Digite a quantidade de metros:'))
+# Escreva um programa que leia um valor em metros e o exiba convertido em centímetros e milímetros.
+
+mt = float(input('Digite a quantidade de metros: '))
 cm = mt*100
-mm = cm*10
-print(f'Centimetros:{cm:.0f}cm,\n'
-      f'milímetros:{mm}mm')
+mm = mt*1000
+print(f'Centímetros: {cm:.0f}cm,\n'
+      f'Milímetros: {mm:.0F}mm')
