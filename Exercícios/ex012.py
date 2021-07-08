@@ -2,7 +2,7 @@
 
 preco = float(input('Digite o preço do produto: R$'))
 desconto = float(input('Digite o percentual de desconto: '))
-print(f'O produto sairá por R${preco-(preco*desconto/100):.2f}')
+print(f'O produto sairá por R${preco-preco*desconto/100:.2f}')
 #or
 print(f'O produto com desconto sairá por R${preco*0.95}')
 #or
