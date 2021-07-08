@@ -1,4 +1,6 @@
-tabx = int(input('Digite um numero:'))
+#Faça um programa que leia um número inteiro qualquer e mostre na tela a sua tabuada.
+
+tabx = int(input('Digite um numero: '))
 print('-'* 12)
 print(f'TABUADA DO {tabx}\n'
       f'{tabx} x 1 = {tabx}\n'
@@ -13,6 +15,6 @@ print(f'TABUADA DO {tabx}\n'
       f'{tabx} x10 = {tabx*10}\n'
       f'----------------------')
 #or
-n = int(input('Digite um número:'))
+n = int(input('Digite um número: '))
 for x in range(1,11):
-      print(f'{n:2}x{x:2}={n*x:2}')
+      print(f'{n:2} x{x:2} = {n*x:2}')
