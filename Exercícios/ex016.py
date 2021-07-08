@@ -1,11 +1,14 @@
 #Crie um programa que leia um número Real qualquer pelo teclado e mostre na tela a sua porção inteira.
 
-from math import fabs, floor
-numero = float(input('Digite um número:'))
-print(f'O número {numero} tem a parte inteira {fabs(numero)}')
+from math import trunc, floor
+numero = float(input('Digite um número: '))
+print(f'O número {numero} tem a parte inteira {trunc(numero)}')
 #or
-numero = float(input('Digite um número :'))
-print(f'O número {numero} tem a parte inteira {numero:.0f}')
+numero = float(input('Digite um número: '))
+print(f'O número {numero} tem a parte inteira arredondada {numero:.0f}')
 #or
-numero = float(input('Digite um número :'))
+numero = float(input('Digite um número: '))
 print(f'O número {numero} tem a parte inteira {floor(numero)}')
+#or 
+numero = float(input('Digite um número: '))
+print(f'O número {numero} tem a parte inteira {int(numero)}')
