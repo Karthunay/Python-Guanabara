@@ -6,7 +6,6 @@ seno = sin(radians(angulo))
 cosseno = cos(radians(angulo))
 tangente = tan(radians(angulo))
 print(f'O ângulo {angulo} tem as seguintes informações:\n'
-      f'O seno é {seno:.2g}\n'
+      f'O seno é {seno:.2f}\n'
       f'O cosseno é {cosseno:.2f}\n'
       f'A tangente é {tangente:.2f}')
-#or
