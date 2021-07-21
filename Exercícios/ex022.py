@@ -6,4 +6,4 @@ print(f'Seu nome em letra maiúscula é: {nome.upper( )}\n'
          f'Seu nome com letra minúscula é: {nome.lower()}\n'
          f'Seu nome possui {len(nome)} letras.')
 print('Seu primeiro nome tem {} letras '.format( len(nome) - nome.count(' ')))
-print('Seu primeiro nome tem {} letras '. format(nome.find(' ')))
+print('Seu primeiro nome tem {} letras '.format(nome.find(' ')))
