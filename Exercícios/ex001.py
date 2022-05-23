@@ -1,7 +1,6 @@
-#Crie um programa que escreva "Olá, Mundo!" na tela.
+ #Crie um programa que escreva "Olá, Mundo!" na tela.
 
-print('Olá, Mundo!')
+print('Olá, Mundo!') teste
 
 msg = ('Olá, mundo!')
 print(msg)
-
